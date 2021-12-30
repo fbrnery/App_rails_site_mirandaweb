@@ -1,5 +1,21 @@
 @import 'bootstrap/scss/bootstrap';
 
-body {
-background-color: black;
+.body {
+  color: #2C3E50;
+  background-color: #FFFFFF;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  text-align: center;
 }
+
+//Header(navbrand-menu-button btn)
+a {
+    color: aliceblue;
+    text-decoration: auto;
+    padding-right: 25px;
+    margin-left: 3cm;
+    padding-top: 2px;
+    margin: 10px;
+    font-size: 15px;
+}
+
