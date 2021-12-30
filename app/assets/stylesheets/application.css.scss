@@ -19,3 +19,43 @@ a {
     font-size: 15px;
 }
 
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+  }
+
+  .carousel-caption {
+    line-height: 1.43;
+    font-weight: bold;
+    text-shadow: 0 0 0.1em black,
+    0 0 0.1em black,
+    0 0 0.1em black;
+    z-index: 0px;
+    margin-bottom: -25px;
+    margin-top: 0px;
+    color: #fff;
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
