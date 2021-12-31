@@ -12,13 +12,17 @@
 a {
     color: aliceblue;
     text-decoration: auto;
-    padding-right: 25px;
+    padding-right: 15px;
     margin-left: 3cm;
     padding-top: 2px;
     margin: 10px;
     font-size: 15px;
 }
 
+.dropup, .dropend, .dropdown, .dropstart {
+    position: relative;
+    padding-top: 20px;
+}
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
