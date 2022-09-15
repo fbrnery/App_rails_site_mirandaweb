@@ -11,23 +11,28 @@
 
 //Header(navbrand-menu-button btn)
 a {
-    color: darkgray;
-    text-decoration: auto;
-    padding-right: 15px;
-    margin-left: 3cm;
-    padding-top: 2px;
-    margin: 10px;
-    font-size: 15px;
+  color: darkgray;
+  text-decoration: auto;
+  padding-right: 15px;
+  margin-left: 3cm;
+  padding-top: 2px;
+  margin: 10px;
+  font-size: 15px;
 }
 
-.dropup, .dropend, .dropdown, .dropstart {
-    position: relative;
-    padding-top: 20px;
+.dropup,
+.dropend,
+.dropdown,
+.dropstart {
+  position: relative;
+  padding-top: 20px;
 }
+
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
@@ -38,7 +43,8 @@ a {
 .carousel-item {
   height: 32rem;
 }
-.carousel-item > img {
+
+.carousel-item>img {
   position: absolute;
   top: 0;
   left: 0;
@@ -46,22 +52,25 @@ a {
   height: 32rem;
 }
 
-img, embed, object, video {
-    max-width: 100%;
-  }
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
 
-  .carousel-caption {
-    line-height: 1.43;
-    font-weight: bold;
-    text-shadow: 0 0 0.2em black,
+.carousel-caption {
+  line-height: 1.43;
+  font-weight: bold;
+  text-shadow: 0 0 0.2em black,
     0 0 0.1em black,
     0 0 0.1em black;
-    z-index: 0px;
-    margin-bottom: -25px;
-    margin-top: 0px;
-    color: #fff;
-    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px;
+  z-index: 0px;
+  margin-bottom: -25px;
+  margin-top: 0px;
+  color: #fff;
+  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
 }
 
 .bi {
@@ -90,10 +99,12 @@ img, embed, object, video {
   padding-left: 25px;
   text-align: justify;
 }
+
 .blog-post-title {
   margin-bottom: .25rem;
   font-size: 2.5rem;
 }
+
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #727272;
@@ -151,7 +162,7 @@ img, embed, object, video {
 }
 
 p {
- text-align: justify;
+  text-align: justify;
 }
 
 /* Center align the text within the three columns below the carousel */
@@ -159,6 +170,7 @@ p {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 /* rtl:begin:ignore */
 .marketing .col-lg-4 p {
   margin-right: .75rem;
@@ -171,7 +183,9 @@ p {
 }
 
 .blog-header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif
+    /*rtl:Amiri, Georgia, "Times New Roman", serif*/
+  ;
   font-size: 2.25rem;
 }
 
@@ -179,13 +193,21 @@ p {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif
+    /*rtl:Amiri, Georgia, "Times New Roman", serif*/
+  ;
 }
 
 .display-4 {
   font-size: 2.5rem;
 }
+
 @media (min-width: 768px) {
   .display-4 {
     font-size: 3rem;
@@ -196,9 +218,14 @@ h1, h2, h3, h4, h5, h6 {
   flex: 0 0 auto;
 }
 
-.h-250 { height: 250px; }
+.h-250 {
+  height: 250px;
+}
+
 @media (min-width: 768px) {
-  .h-md-250 { height: 250px; }
+  .h-md-250 {
+    height: 250px;
+  }
 }
 
 /* Pagination */
@@ -212,13 +239,14 @@ h1, h2, h3, h4, h5, h6 {
 .blog-post {
   margin-bottom: 4rem;
 }
+
 .blog-post-title {
   font-size: 2.5rem;
 }
+
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #727272;
 }
 
 //fim//
-
