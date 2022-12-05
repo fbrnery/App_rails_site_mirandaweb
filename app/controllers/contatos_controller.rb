@@ -25,7 +25,8 @@ class ContatosController < ApplicationController
 
     respond_to do |format|
       if @contato.save
-        format.html { redirect_to contato_url(@contato), notice: "Contato was successfully created." }
+        ContatoMailer.received(@contato).deliver_later
+        format.html { redirect_to contato_url(@contato), notice: "Obrigado pelo seu contato !!!" }
         format.json { render :show, status: :created, location: @contato }
       else
         format.html { render :new, status: :unprocessable_entity }
