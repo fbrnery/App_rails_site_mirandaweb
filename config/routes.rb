@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  resources :contatos
+  
   scope '(:locale)' do
+  resources :contatos
   root 'home#index'
   get 'home/index'
   get 'home/sobrenos'
