@@ -19,21 +19,21 @@
 <br>
 <div class="container">
   <div class="forms">
-    <h2>Contacts</h2>
+    <h2>Contatos</h2>
     <hr>
   </div>
 </div>
 <div class="container">
-  <h5>Fill out the form to talk to us:</h5>
+  <h5>Preencha o formulário para falar conosco:</h5>
   <br>
 
   <div class="field">
-    <%= form.label :name %>
+    <%= form.label :nome %>
     <%= form.text_field :nome, size: 40,  class: "form-control" %>
   </div>
 
   <div class="mb-3">
-    <%= form.label :subject_matter %>
+    <%= form.label :assunto %>
     <%= form.text_area :assunto, rows: 3, cols: 40,  class: "form-control" %>
   </div>
 
@@ -44,7 +44,7 @@
   <br>
   <br>
   <div class="actions">
-    <%= form.submit 'To send' %>
+    <%= form.submit 'Enviar' %>
   </div>
   <% end %>
 </div>

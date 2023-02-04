@@ -1,6 +1,6 @@
 class ContatoMailer < ApplicationMailer
 
- default from: 'TechTab <fbrnery@gmail.com>'
+ default from: 'Miranda Web <fbrnery@gmail.com>'
 
   # Subject can be set in your I18n file at config/locales/en.yml
   # with the following lookup:
