@@ -1,152 +1,208 @@
 <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-          <img src="<%= image_url('Rails1.jpg')%>"  alt="...">
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Ruby on Rails</h1>
-            <h5>Aplicações web: como lojas virtuais, sistemas de cadastros(CRUDS), blogs e muito mais. </h5>
-            <h6><a class="btn btn-lg btn-primary" href="home/appruby">Ver mais</a></h6>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="<%= image_url('bannerreact1.jpg')%>"  alt="...">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Em Front-End</h1>
-            <h5>Desenvolvemos diversos tipos de interfaces para sites responsivos, dinâmicos e conectados as redes sociais.</h5>
-            <h6><a class="btn btn-lg btn-primary" href="#">Ver mais</a></h6>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="<%= image_url('webdesing.jpg')%>"  alt="...">
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>Aplicações Responsivas.</h1>
-            <h5>Leyauts adaptados, a uma variedade de dispositivos e tamanhos de janela ou tela do mínimo ao máximo.<h5>
-            <h6><a class="btn btn-lg btn-primary" href="#">Ver mais</a></h6>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+      aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  </br>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="<%= image_url('ecommerce3.jpg')%>" alt="...">
+      <div class="container">
+        <div class="carousel-caption text-start">
+          <h1>E-commerces</h1>
+          <h5> A sua loja virtual: com mais canais, mais consumidores, mais vendas !</h5>
+          <h6><a class="btn btn-lg btn-primary" href="home/appruby">Ver mais</a></h6>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="<%= image_url('sites6.jpg')%>" alt="...">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Sites</h1>
+          <h5>Sua empresa na internet 24 horas por dia, e conectada as redes sociais !</h5>
+          <h6><a class="btn btn-lg btn-primary" href="#">Ver mais</a></h6>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="<%= image_url('estoque.png')%>" alt="...">
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>Aplicações de web no formato crud</h1>
+          <h5>Apps de cadastro de usuários, controle de estoque, caixa e financeiros !<h5>
+              <h6><a class="btn btn-lg btn-primary" href="#">Ver mais</a></h6>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="<%= image_url('sociais3.jpg')%>" alt="...">
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>Marketing Digital</h1>
+          <h5>Assessoria em redes sociais!<h5>
+              <h6><a class="btn btn-lg btn-primary" href="#">Ver mais</a></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</br>
 
-  <div class="container px-4 py-5" id="icon-grid">
-    <h2 class="pb-2 border-bottom">Habilidades e ferramentas</h2>
-    <h5>As ferramentas e tecnologias que uso para trazer seus produtos para aplicações web:</h5>
-
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+<div class="container px-4 py-5" id="icon-grid">
+  <h2 class="pb-2 border-bottom">Linguagens e ferramentas que usamos para desenvolver suas aplicações web:</h2>
+  <h4>Habilidades em Sistemas Operacionais:</h4>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
     <div class="col d-flex align-items-start">
-        <img src="<%= image_url('vscode.png')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">Vs Code</h5>
-        </div>
+      <img src="<%= image_url('linux.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">Linux</h5>
       </div>
-      <div class="col d-flex align-items-start">
-        <img src="<%= image_url('HTML5.png')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">HTML5</h5>
-        </div>
+    </div>
+  </div>
+  <h4>Habilidades em desenvolvimento front-End:</h4>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('vscode.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">Vs Code</h5>
       </div>
-      <div class="col d-flex align-items-start">
-        <img src="<%= image_url('css3.png')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">CSS3</h5>
-        </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('HTML5.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">HTML5</h5>
       </div>
-      <div class="col d-flex align-items-start">
-        <img src="<%= image_url('javascript.png')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">Java Script</h5>
-        </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('css3.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">CSS3</h5>
       </div>
-      <div class="col d-flex align-items-start">
-        <img src="<%= image_url('img_ajax.jpg')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">Ajax Js</h5>
-        </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('javascript.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">Java Script</h5>
       </div>
-      <div class="col d-flex align-items-start">
-        <img src="<%= image_url('node-js-logo.png')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">NodeJs</h5>
-        </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('bootstrap.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">Bootstrap Design</h5>
       </div>
-      <div class="col d-flex align-items-start">
-        <img src="<%= image_url('reactjs.png')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">React Js</h5>
-        </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('bulma.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">Bulma</h5>
       </div>
-      <div class="col d-flex align-items-start">
-        <img src="<%= image_url('bootstrap.png')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">Bootstrap Design</h5>
-        </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('reactjs.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">React Js</h5>
       </div>
-      <div class="col d-flex align-items-start">
-        <img src="<%= image_url('responsive-website.png')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">Responsive website</h5>
-        </div>
-        </div>
-       <div class="col d-flex align-items-start">
-        <img src="<%= image_url('git.png')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">Git</h5>
-        </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('next-js.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">NextJs</h5>
       </div>
-        <div class="col d-flex align-items-start">
-        <img src="<%= image_url('github.png')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">Github</h5>
-        </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('typescript.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">Typescript</h5>
       </div>
-      <div class="col d-flex align-items-start">
-        <img src="<%= image_url('rails.png')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">Ruby on Rails</h5>
-        </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('reactnative.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">React Native</h5>
       </div>
-      <div class="col d-flex align-items-start">
-        <img src="<%= image_url('restful.png')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">RESTful APIS Rails</h5>
-        </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('responsive-website.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">Responsive website</h5>
       </div>
-      <div class="col d-flex align-items-start">
-        <img src="<%= image_url('tdd.png')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">TDD Testes</h5>
-        </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('img_ajax.jpg')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">Ajax Js</h5>
       </div>
-      <div class="col d-flex align-items-start">
-        <img src="<%= image_url('postgresql.png')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">Postgreql</h5>
-        </div>
+    </div>
+   
+  </div>
+  <h4>Habilidades em desenvolvimento back-End:</h4>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('rails.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">Ruby on Rails</h5>
       </div>
-      <div class="col d-flex align-items-start">
-        <img src="<%= image_url('heroku.png')%>"  alt="...">
-        <div>
-          <h5 class="fw-bold mb-0">Heroku hospedagem</h5>
-        </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('restful.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">RESTful APIS Rails</h5>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('postmam.jpg')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">Postmam</h5>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('tdd.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">TDD Testes</h5>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('postgresql.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">Postgreql</h5>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('javascript.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">Java Script</h5>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('node-js-logo.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">NodeJs</h5>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('express.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0"> ExpressJs</h5>
+      </div>
+    </div>
+  </div>
+  <h4>Habilidades em cloud computing:</h4>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+    <div class="col d-flex align-items-start">
+      <img src="<%= image_url('heroku.png')%>" alt="...">
+      <div>
+        <h5 class="fw-bold mb-0">Heroku</h5>
       </div>
     </div>
   </div>
