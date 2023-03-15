@@ -202,8 +202,11 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif
-    /*rtl:Amiri, Georgia, "Times New Roman", serif*/
-  ;
+    /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    
+}
+h6 {
+  text-align: center;
 }
 
 .display-4 {
